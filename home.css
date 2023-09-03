@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  background-color: rgb(240, 244, 243);
+}
+
+nav {
+  background-color: rgb(2, 2, 62);
+
+  height: 55px;
+  position: fixed; /* Fixed position to stick at the top */
+  top: 0; /* Align it at the top */
+  left: 0; /* Align it at the left */
+  width: 100%; /* Make it full-width */
+}
+
+/* Style for the unordered list within the navigation bar */
+nav ul {
+  list-style-type: none;
+  margin-top: -30px; /* Set margin to 0 to remove default spacing */
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Display menu items at the right */
+}
+
+/* Style for each list item in the navigation bar */
+nav ul li {
+  display: inline;
+}
+
+/* Style for links within each list item */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.slideshow-container {
+  max-width: 100%;
+
+  margin: auto;
+}
+
+.slide {
+  margin-top: 45px;
+}
+
+.slide img {
+  width: 100%;
+  height: 700px;
+}
+
+#home {
+  margin-top: 50px;
+}
+
+.welcome {
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+  color: rgb(67, 7, 2);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h2 {
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+  margin: 20px;
+  display: flex;
+  text-align: center;
+}
+
+.color {
+  text-align: center;
+  background-color: rgb(208, 208, 218);
+}
+
+.services {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px; /* Adjust this value to fit your desired width */
+  margin: 0 auto;
+}
+
+/* Style for each item (column) inside the container */
+.container > div {
+  flex-basis: calc(
+    33.33% - 20px
+  ); /* 33.33% width for each column with 20px spacing between columns */
+  margin-bottom: 20px; /* Spacing between rows */
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Optional: Add a border around each item */
+  text-align: center;
+}
+
+/* Adjust the style for headings, images, and paragraphs inside each item if needed */
+.container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.container img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 16px;
+}
+
+#why-choose {
+  background-image: url(images/Residential.jpg);
+}
+
+.choose-us {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  background: white;
+  color: black;
+}
+
+#contact {
+  background-color: #000000da;
+}
+
+#map {
+  height: 400px;
+  width: 50%;
+}
+
+.map-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+  padding-left: 90px;
+}
+
+/* Apply margin to the individual form elements */
+.map-form form input,
+.map-form form textarea {
+  margin: 30px;
+  display: grid;
+  margin-left: 100px;
+  width: 400px;
+  resize: none;
+  background-color: rgba(0, 0, 0, 0.935);
+  color: white;
+  border: none;
+}
+
+/* Style the submit button */
+.map-form form .btn2 {
+  background-color: rgba(50, 50, 252, 0.331);
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.map-form form .btn2:hover {
+  background-color: rgba(0, 0, 255, 0.103);
+}
+
+.map-form form .name,
+.email {
+  height: 40px;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  font-size: 20px;
+  color: rgb(248, 246, 245);
+}
+
+.email {
+  color: rgb(248, 246, 245);
+  margin-left: 60px;
+  font-size: 20px;
+}
+
+.socials i {
+  color: rgb(248, 246, 245);
+}
+
+.socials ul {
+  list-style-type: none;
+}
+
+.socials {
+  margin-left: 0px;
+}
+
+.socials ul li {
+  display: inline;
+  width: 0px;
+  height: 30px;
+  margin-left: 50px;
+}
+
+.socials ul i {
+  font-size: 25px;
+}
+
+.survey a {
+  margin-left: 60px;
+  font-size: 20px;
+  color: rgb(248, 246, 245);
+  text-decoration: none;
+}
