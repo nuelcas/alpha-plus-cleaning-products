@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Plus Cleaning Products</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-XXXXX-Y");
+    </script>
+    <link rel="stylesheet" href="styles/contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="/images/alpha-plus.png"
+          alt="Alpha Plus Logo"
+          width="50"
+          height="50"
+          class="logo"
+        />
+        <div class="menu-toggle" id="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+        <form id="searchForm" action="categories.html" method="GET" class="search-form">
+          <input
+            type="text"
+            name="query"
+            placeholder="Search for products..."
+          />
+          <button type="submit">Search</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section class="contact">
+        <h1>Contact Us</h1>
+        <p>
+          If you have any questions or concerns, feel free to reach out to us!
+        </p>
+
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="8" placeholder="Type your message" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+        <div id="feedback"></div>
+        <p><strong>Phone:</strong> +234 8066029176</p>
+        <p><strong>Email:</strong> support@alphaplus.com</p>
+      </section>
+    </main>
+    <section class="promotions">
+      <h2>Special Offers</h2>
+      <div class="promo-item">
+        <p>
+          <a href="order.html"
+            >Buy 25 litres of our Multi-purpose Liquid Soap and get free
+            customized 2 litres</a
+          >
+        </p>
+      </div>
+      <div class="promo-item">
+        <p>
+          <a href="order.html"
+            >Place order for larger quantity - 25 litres, 50 litres >> and get
+            10% discount</a
+          >
+        </p>
+      </div>
+    </section>
+  </main>
+  <section id="hook">
+    <div class="hook">
+      <h3>Products</h3>
+      <ul>
+        <li>Liquid Soap</li>
+        <li>Tile Cleaner</li>
+        <li>Toilet Cleaner</li>
+        <li>Germicide</li>
+      </ul>
+    </div>
+    <div class="hook">
+      <h3>About Us</h3>
+      <ul>
+        <li><a href="faqs.html" target="_blank">FAQs</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+    <div class="hook">
+      <h3>Terms</h3>
+      <ul>
+        <li><a href="terms-of-use.html" target="_blank">Terms of Use</a></li>
+        <li>
+          <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="hook">
+      <h3>Contact Us</h3>
+      <ul>
+        <li><i class="fas fa-phone"></i> +2348066029176</li>
+        <li><i class="fas fa-map-marker-alt"></i> Suite 3, Moreta Plaza</li>
+        <li>Olorunfemi Bus Stop</li>
+        <li>Igando, Lagos</li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <p>
+      &copy; 2024 Alpha Plus Cleaning Products |
+      <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+    </p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/Nuelcascleaners/" target="_blank"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <a href="https://www.instagram.com/nuelcascleaners" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="https://www.twitter.com/nuelcascleaners" target="_blank"
+        ><i class="fa-solid fa-x"></i
+      ></a>
+    </div>
+  </footer>
+  <script src="scripts/contact.js"></script>
+  <script src="scripts/search.js"></script>
+</body>
+</html>
+
