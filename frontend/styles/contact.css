@@ -272,6 +272,7 @@ footer a:hover {
   left: 50%;
   transform: translateX(-50%);
   background-color: whitesmoke;
+  border-radius: 7px;
   color: green;
   padding: 15px;
   font-size: 16px;
@@ -282,7 +283,8 @@ footer a:hover {
 }
 
 #feedback.error {
-  background-color: #f44336; /* Error color */
+  background-color: whitesmoke;
+  color: red;
 }
 
 @media screen and (max-width: 768px) {
