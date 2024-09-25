@@ -16,11 +16,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Serve static files from the frontend directory
-app.use(express.static(path.join(__dirname, "../frontend"))); // Adjust to your frontend directory
+app.use(express.static(path.join(__dirname, "../"))); // Adjust to your frontend directory
 
 // Serve the index.html at the root path
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend", "index.html")); // Adjust to your main HTML file
+  res.sendFile(path.join(__dirname, "../", "index.html")); // Adjust to your main HTML file
 });
 
 app.get("/categories", (req, res) => {
