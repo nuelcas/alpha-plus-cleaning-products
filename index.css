@@ -116,7 +116,7 @@ main {
 }
 
 .intro h2 {
-  margin-bottom: 10px;
+  margin-bottom: -70px;
   font-size: 2rem;
   color: #00796b;
 }
@@ -125,8 +125,8 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 0px;
-  font-family: cursive;
+  margin-top: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.9rem;
   color: #333;
 }
@@ -172,7 +172,7 @@ main {
 
 .slide img {
   border-radius: 15px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .promotions {
