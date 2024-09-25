@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Serve static files from the frontend directory
-app.use(express.static(path.join(__dirname, "../frontend"))); // Adjust to your frontend directory
+app.use(express.static(path.join(__dirname, "../"))); // Adjust to your frontend directory
 
 // Serve the index.html at the root path
 app.get("/", (req, res) => {
