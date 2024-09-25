@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, "../"))); // Adjust to your frontend
 
 // Serve the index.html at the root path
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../", "index.html")); // Adjust to your main HTML file
+  res.sendFile(path.join(__dirname, "/", "index.html")); // Adjust to your main HTML file
 });
 
 app.get("/categories", (req, res) => {
@@ -52,7 +52,7 @@ app.get("/faqs", (req, res) => {
 });
 
 // Serve static files from the 'images' folder
-app.use("/images", express.static(path.join(__dirname, "../images")));
+app.use("/images", express.static(path.join(__dirname, "/images")));
 
 // Routes
 app.post("/contact", createContact);
